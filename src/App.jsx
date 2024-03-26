@@ -1,6 +1,6 @@
 import './App.css'
 import Permissions from './components/Permissions'
-import WebcamStreamCapture from './components/WebcamStreamCapture'
+// import WebcamStreamCapture from './components/WebcamStreamCapture.jsx'
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
     <div>
       <h1>Hello</h1>
       <Permissions/>
-      <WebcamStreamCapture/>
+      {/* <WebcamStreamCapture/> */}
     </div>
   )
 }
