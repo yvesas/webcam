@@ -1,4 +1,4 @@
-// import './App.css'
+import './index.css'
 import { useState } from "react";
 import VideoRecorder from './VideoRecorder';
 import AudioRecorder from './AudioRecorder';
@@ -12,7 +12,7 @@ const AppMediaRecorder = () => {
   };
   return (
       <div>
-          <h1>React Media Recorder</h1>
+          <h1>Media Recorder - classic</h1>
           <div className="button-flex">
               <button onClick={toggleRecordOption("video")}>
                 Record Video
