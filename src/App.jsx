@@ -2,14 +2,16 @@
 import './App.css'
 // import Permissions from './components/Permissions'
 import AppMediaRecorder from './components/MediaRecorder/AppMediaRecorder';
-import AppReactVideoRecorder from './components/ReactVideoRecorder/AppReactVideoRecorder';
+// import AppReactVideoRecorder from './components/ReactVideoRecorder/AppReactVideoRecorder';
+import ReactWebCam from './components/ReactWebcam';
 
 const App = () => {
     
     return (
         <>
         <AppMediaRecorder/>
-        <AppReactVideoRecorder/>
+        <ReactWebCam/>
+        {/* <AppReactVideoRecorder/> */}
         </>
     );
 };

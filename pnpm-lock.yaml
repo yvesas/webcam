@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  prop-types:
+    specifier: ^15.8.1
+    version: 15.8.1
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -17,6 +20,9 @@ dependencies:
   react-webcam:
     specifier: ^7.2.0
     version: 7.2.0(react-dom@18.2.0)(react@18.2.0)
+  styled-components:
+    specifier: '4'
+    version: 4.4.1(@babel/core@7.24.3)(react-dom@18.2.0)(react@18.2.0)
 
 devDependencies:
   '@types/react':
